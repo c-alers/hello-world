@@ -1,0 +1,1 @@
+del build-author.log & mvn clean install -P install-full -l build-author.log && ping 127.0.0.1 -n 75 > nul && echo Sucess && time /T
